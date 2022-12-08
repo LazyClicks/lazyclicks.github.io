@@ -36,8 +36,8 @@
         </section>
         <section class="py-4">
             <div class="container" data-aos="zoom-in" data-aos-once="true">
-                <div style="padding: 2em 1em;text-align: center;background: linear-gradient(63deg, #4860ff 0%, #5acbff 100%), #5bd2ff;border-radius: 15px;">
-                    <p class="fs-1 text-light" style="text-align: center;border-radius: 15px;">I am currently <strong>available</strong> for hire!</p><button class="btn btn-dark btn-lg text-uppercase fs-4 fw-bold" type="button">Hire me&nbsp;<i class="fas fa-chevron-right"></i></button>
+                <div class="border rounded shadow" style="padding: 2em 1em;text-align: center;background: linear-gradient(63deg, #4860ff 0%, #5acbff 100%), #5bd2ff;border-radius: 15px;">
+                    <p class="fs-1 text-light" style="text-align: center;border-radius: 15px;">I am currently <strong>available</strong> for hire!</p><a class="btn btn-dark btn-lg text-uppercase fs-4 fw-bold" role="button" href="#contact">Hire me&nbsp;<i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
         </section>
@@ -46,33 +46,35 @@
                 <p class="fs-1 text-dark">Projects</p>
                 <div class="row gx-4 gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3 py-5">
                     <div class="col" data-aos="zoom-in" data-aos-once="true">
-                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/11.jpeg"></div>
+                        <div class="card border rounded shadow-sm"><img class="card-img w-100 d-block" src="assets/img/11.jpeg"><a class="stretched-link" href="https://korracoporation.com" target="_blank"></a></div>
                     </div>
                     <div class="col" data-aos="zoom-in" data-aos-delay="50" data-aos-once="true">
-                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/2222.jpeg"></div>
+                        <div class="card border rounded shadow-sm"><a class="stretched-link" href="https://ibnalhaythemcenter.com" target="_blank"></a><img class="card-img w-100 d-block" src="assets/img/2222.jpeg"></div>
                     </div>
                     <div class="col" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
-                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/Web%20capture_2-11-2022_286_lunettes.bss.design.jpeg"></div>
+                        <div class="card border rounded shadow-sm"><img class="card-img w-100 d-block" src="assets/img/Web%20capture_2-11-2022_286_lunettes.bss.design.jpeg"></div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-4">
+        <section id="contact" class="py-4">
             <div class="container">
                 <p class="fs-1 text-dark">Contact</p>
-                <div class="row d-flex justify-content-center"><div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
-    <div class="card mb-5">
-        <div class="card-body p-sm-5">
-            <h2 class="text-center mb-4">Contact us</h2>
-            <form action="https://send.pageclip.co/lUMzq8CG7dF1F8kDa7HTDfGWOyHWG1yU/Contact-form" class="pageclip-form" method="post">
-                <div class="mb-3"><input id="name-2" class="form-control" type="text" name="name" placeholder="Name" /></div>
-                <div class="mb-3"><input id="email-2" class="form-control" type="email" name="email" placeholder="Email" /></div>
-                <div class="mb-3"><textarea id="message-2" class="form-control" name="message" rows="6" placeholder="Message"></textarea></div>
-                <div><button class="pageclip-form__submit" type="submit">Send </button></div>
-            </form>
-        </div>
-    </div>
-</div></div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-7">
+                        <div class="card border rounded shadow-sm mb-5">
+                            <div class="card-body p-sm-5">
+                                <h2 class="text-center mb-4">Contact me</h2>
+                                <form action="https://send.pageclip.co/lUMzq8CG7dF1F8kDa7HTDfGWOyHWG1yU/Contact-form" class="pageclip-form" method="post">
+                                    <div class="mb-3"><input class="form-control form-control" type="text" id="name-2" name="name" placeholder="Name" autocomplete="on" required=""></div>
+                                    <div class="mb-3"><input class="form-control form-control" type="email" id="email-2" name="email" placeholder="Email" autocomplete="on" inputmode="email" required=""></div>
+                                    <div class="mb-3"><textarea class="form-control" id="message-2" name="message" rows="6" placeholder="Message" spellcheck="true"></textarea></div>
+                                    <div><button class="btn btn-dark btn-lg fw-bold border rounded" type="submit">Send </button></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
